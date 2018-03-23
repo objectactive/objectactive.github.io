@@ -1,0 +1,40 @@
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-family:'Microsoft yahei';}
+ol,ul,li{margin:0;padding:0;list-style:none;}
+img{border:none;}
+a{text-decoration:none; color:black;}
+.foot{
+    width:1920px;
+	height:400px;
+	margin-top:2px;
+	background-image:url("../footer/底板背景.png");
+}
+.footInfo{
+   margin-left:410px;
+   padding-top:70px;
+}
+.foot ul li{
+  width:112px;
+  font-size:12px;
+  margin-top:5px;
+ margin-right:53px;
+  color:#c1c1c1;
+  float:left; 
+}
+/* .small-font ul li{    
+    font-size:12px; 
+	-webkit-transform-origin-x: 0;
+	-webkit-transform: scale(0.90);
+	transform: scale(0.90);
+}
+.smallsize-font ul li{
+	font-size:10.8px;
+
+ }*/
+.foot ul h5{
+    font-size:12px;
+	font-weight:normal;
+    color:#fff;
+}
+.foot ul li a{
+   color:#c1c1c1;
+}
