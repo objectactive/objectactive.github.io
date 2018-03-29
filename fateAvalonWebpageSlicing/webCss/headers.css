@@ -23,9 +23,9 @@
 .header-nav li{
     position: relative;
     float:left;
-    width:100px;
+    width:91px;
     height: 100%;
-    margin-left:87px;
+    margin-left:85px;
     text-align:center;
 }
 .header-nav li > img{
@@ -88,7 +88,7 @@
      left: 50%;
     width: 922px;
     height: 416px;
-    margin-left: -461px;
+    margin-left: -500px;
     background: url("../images/banner/logo.png") no-repeat center top;
 }
 @keyframes heightChang1 {
