@@ -1,0 +1,153 @@
+@charset "utf-8";
+#main{
+    width: 100%;
+    height: 2413px;
+    background: url("../images/background.png") no-repeat center center;
+}
+.main-container{
+    overflow: hidden;
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-top{
+    overflow: hidden;
+    width:1025px;
+    height:685px;
+    padding-top:74px;
+}
+.main-top > div{
+    float: left;
+}
+.utopia-title{
+    width: 287px;
+    height: 154px;
+    background:url("../images/content/utopia/title.png") no-repeat;
+}
+.utopia-right{
+    width: 738px;
+    height: 685px;
+}
+.utopia-right h3{
+    width: 100%;
+    height: 53px;
+    margin-top: 95px;
+    background: url("../images/content/utopia/font.png") no-repeat center center;
+}
+.utopia-right ul{
+    width: 100%;
+    height: 478px;
+}
+.utopia-right ul li{
+    font-size: 24px;
+    text-align:center;
+    line-height:113px;
+    letter-spacing: 3px;
+    color: #835a19
+}
+.utopia-right ul li span{
+    color: #831919;
+}
+.main-middle{
+    position:relative;
+    width:110%;
+    height:494px;
+    margin-top: 255px;
+}
+.game-tile{
+    width: 287px;
+    height: 154px;
+    background:url("../images/content/gameinfo/title.png") no-repeat;
+}
+.game-info{
+    position:absolute;
+    width: 1213px;
+    height: 330px;
+    left: 121px;
+    top: 133px;
+}
+.game-info > div{
+    float:left;
+}
+.game-video{
+    position: relative;
+    width: 523px;
+    height: 330px;
+    background:rgba(0,0,0,0.7)url("../images/content/gameinfo/border.png") ;
+}
+.game-video img{
+    position:absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.video-img{
+    opacity: 0.5;
+}
+.game-video a:hover img{
+    opacity:1;
+}
+.game-text{
+    width: 676px;
+    height: 392px;
+    margin-left: 14px;
+    background: url("../images/content/gameinfo/hr.png") no-repeat left top ;
+}
+.game-text ul{
+    width:591px;
+}
+.game-text li{
+    padding:27px 0 20px 25px;
+}
+.game-text li p{
+    float:left;
+
+}
+.game-text li span{
+    float:right;
+}
+.game-text li a{
+    font-size: 18px;
+    color:#a07c44;
+}
+.game-text li a:hover p{
+    text-decoration: underline;
+}
+.middle-bottom{
+    overflow: hidden;
+    position:relative;
+    width: 1300px;
+    height: 537px;
+    margin-top: 194px;
+    background: url("../images/content/heros/hr.png") no-repeat center bottom;
+}
+.hero-title{
+    width: 287px;
+    height: 154px;
+    background:url("../images/content/heros/title.png") no-repeat;
+}
+.hero-info{
+    position:absolute;
+    width: 1250px;
+    height: 300px;
+    left: 88px;
+    top: 139px;
+}
+.hero-info li{
+    float:left;
+    margin-right:40px;
+
+}
+.heroIfo-bottom{
+    position:absolute;
+    left: 117px;
+    top: 120px;
+}
+.hero-info li:hover{
+    background:url("../images/content/heros/hero/selected border.png") no-repeat center 40%;
+}
+.heroIfo-bottom li:last-child :hover{
+    background:url("../images/content/heros/hero/selected border red.png") no-repeat center 55%;
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+#headers{
+    width: 100%;
+    height: 896px;
+    background: url("../images/banner/banner.png") no-repeat center center;
+}
+.header-container{
+    overflow: hidden;
+    position:relative;
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-nav{
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+}
+.header-nav ul{
+    position: relative;
+
+}
+.header-nav li{
+    position: relative;
+    float:left;
+    width:100px;
+    height: 100%;
+    margin-left:70px;
+    text-align:center;
+}
+.header-nav li > img{
+    display: block;
+    width:2px;
+    height:300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow:0 0 8px 2px #3E381C;
+
+}
+.header-nav li div{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 618px;
+}
+.header-nav li a{
+    position: relative;
+    z-index: 999;
+}
+.header-nav .saber > img{
+    height: 184px;
+    animation:heightChang1 2s ease;
+}
+.header-nav .lancer > img{
+    height: 246px;
+    animation:heightChang2 2.5s ease;
+}
+.header-nav .archer > img{
+    height: 286px;
+    animation:heightChang3 3s ease;
+}
+.header-nav .rider > img{
+    height: 352px;
+    animation:heightChang4 3.5s ease;
+}
+.header-nav .caster > img{
+    animation:heightChang3 3s ease;
+    height: 286px;
+}
+.header-nav .assassin > img{
+    animation:heightChang2 2.5s ease;
+    height: 246px;
+}
+.header-nav .berserker > img{
+    animation:heightChang1 2s ease;
+    height: 184px;
+}
+.header-nav li a:hover + div{
+    display: block;
+}
+.header-logo{
+    position:absolute;
+    top: 0;
+    left: 50%;
+    width: 922px;
+    height: 416px;
+    margin-left: -461px;
+    background: url("../images/banner/logo.png") no-repeat;
+}
+@keyframes heightChang1 {
+    0%{
+        height: 0;
+    }
+    100%{
+        height:184px;
+    }
+}
+@keyframes heightChang2 {
+    0%{
+        height: 0;
+    }
+    100%{
+        height:246px;
+    }
+}
+@keyframes heightChang3 {
+    0%{
+        height: 0;
+    }
+    100%{
+        height:286px;
+    }
+}
+@keyframes heightChang4 {
+    0%{
+        height: 0;
+    }
+    100%{
+        height:352px;
+    }
+}
+
