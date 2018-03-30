@@ -31,7 +31,6 @@
 .header-nav li > img{
     display: block;
     width:2px;
-    height:300px;
     margin: 0 auto;
     border-radius: 50%;
     background-color: #ffffff;
@@ -48,44 +47,48 @@
     height: 618px;
 }
 .header-nav li a{
+    display:block;
     position: relative;
     z-index: 999;
 }
 .header-nav .saber > img{
-    height: 184px;
-    animation:heightChang1 2s ease;
+    animation:heightChang1 0.3s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .lancer > img{
-    height: 246px;
-    animation:heightChang2 2.5s ease;
+    animation:heightChang2 0.4s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .archer > img{
-    height: 286px;
-    animation:heightChang3 3s ease;
+    animation:heightChang3 0.5s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .rider > img{
-    height: 352px;
-    animation:heightChang4 3.5s ease;
+    animation:heightChang4 0.6s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .caster > img{
-    animation:heightChang3 3s ease;
-    height: 286px;
+    animation:heightChang3 0.5s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .assassin > img{
-    animation:heightChang2 2.5s ease;
-    height: 246px;
+    animation:heightChang2 0.4s ease 2s forwards;
+    height: 30px;
 }
 .header-nav .berserker > img{
-    animation:heightChang1 2s ease;
-    height: 184px;
+    animation:heightChang1 0.3s ease 2s forwards;
+    height: 30px;
 }
 .header-nav li a:hover + div{
     display: block;
 }
+.header-nav li a:hover img{
+    background: url("../images/banner/icon/saber/udl.png") no-repeat center bottom/100%;
+}
 .header-logo{
     position:absolute;
     top: 0;
-     left: 50%;
+    left: 50%;
     width: 922px;
     height: 416px;
     margin-left: -500px;
@@ -93,7 +96,7 @@
 }
 @keyframes heightChang1 {
     0%{
-        height: 0;
+        height: 30px;
     }
     100%{
         height:184px;
@@ -101,7 +104,7 @@
 }
 @keyframes heightChang2 {
     0%{
-        height: 0;
+        height: 30px;
     }
     100%{
         height:246px;
@@ -109,7 +112,7 @@
 }
 @keyframes heightChang3 {
     0%{
-        height: 0;
+        height: 30px;
     }
     100%{
         height:286px;
@@ -117,7 +120,7 @@
 }
 @keyframes heightChang4 {
     0%{
-        height: 0;
+        height:30px;
     }
     100%{
         height:352px;
